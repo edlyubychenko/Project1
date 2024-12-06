@@ -6,17 +6,19 @@ body {
   /* Nav Bar style */
 
   #navbar {
-    height: 50px;
+    height: 80px;
     background-color: #4e4140;
     font-size: larger;
     display: flex;
     justify-content: space-between;
+    background-image: url("https://yt3.googleusercontent.com/k0KQDTW6Vb5QwQy4TLKV3jpMQIZw_1f07Ceygp7a5qUAPlN5U9yzy-h3hKsNorfk7gQwrxd_62g=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj")
   }
 /* Nav Bar style  */
 
 /* MAIN CONTENT */
-  .Season-btn {
-    display: flex;
-    justify-content: center;
-    flex-wrap:  wrap-reverse;
+  .season-btn-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-items: center;
   }
