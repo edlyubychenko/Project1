@@ -1,5 +1,12 @@
 body {
-    background-color: yellow;
+    background-image: url(spongebob-yellow-background-background-scaled.jpg);
+      /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
   
@@ -27,9 +34,11 @@ body {
       img {
         width:  250px;
         height: 250px;
+        border: teal;
+        border-width: medium;
   
     }
-    div {
-      border: teal;
-      border-width: medium;
+    #fanSubmissionForm {
+      height: 300px;
+      width: 500px;
     }
