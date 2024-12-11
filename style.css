@@ -1,3 +1,11 @@
+
+
+canvas {
+  border:1px solid #d3d3d3;
+  
+  background-image: "imagesoption.png";
+    }
+
 body {
     background-image: url(spongebob-yellow-background-background-scaled.jpg);
       /* Full height */
@@ -9,16 +17,24 @@ body {
   background-size: cover;
 }
 
-  
+  a {
+    font-family: 'SpongeBob Font Condensed', sans-serif;
+    font-family: 'SpongeBob Font Wide', sans-serif;
+    border: #4e4140;
+    border-color: aqua;
+  }
   /* Nav Bar style */
 
   #navbar {
-    height: 80px;
+    height: 60px;
     background-color: #4e4140;
-    font-size: larger;
+    font-size: medium;
     display: flex;
     justify-content: space-between;
-    background-image: url("https://yt3.googleusercontent.com/k0KQDTW6Vb5QwQy4TLKV3jpMQIZw_1f07Ceygp7a5qUAPlN5U9yzy-h3hKsNorfk7gQwrxd_62g=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj")
+    background-image: url("https://yt3.googleusercontent.com/k0KQDTW6Vb5QwQy4TLKV3jpMQIZw_1f07Ceygp7a5qUAPlN5U9yzy-h3hKsNorfk7gQwrxd_62g=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj");
+    font-family: 'SpongeBob Font Condensed', sans-serif;
+    font-family: 'SpongeBob Font Wide', sans-serif;
+  
   }
 /* Nav Bar style  */
 
@@ -30,15 +46,26 @@ body {
     column-gap: 10px;
     row-gap: 15px;
     justify-items:  space-between;
+    justify-content: center;
+    align-items: center;
       }
       img {
         width:  250px;
         height: 250px;
         border: teal;
-        border-width: medium;
+        border-width: medium
   
     }
-    #fanSubmissionForm {
-      height: 300px;
-      width: 500px;
+ 
+    h1{
+      position: relative;
+      animation: mymove 5s infinite;
+      font-family: 'SpongeBob Font Condensed', sans-serif;
+      font-family: 'SpongeBob Font Wide', sans-serif;
     }
+    
+    @keyframes mymove {
+      from {left: 0px;}
+      to {left: 500px;}
+    }
+    
